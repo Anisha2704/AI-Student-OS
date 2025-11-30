@@ -166,7 +166,7 @@ body {
 /* Input Fields */
 .input {
   width: 100%;
-  padding: 0.875rem 1rem;
+  padding: 0.65rem 1rem;
   background-color: var(--bg-input);
   border: 1px solid var(--border-primary);
   border-radius: var(--radius-lg);
@@ -183,6 +183,15 @@ body {
 
 .input::placeholder {
   color: var(--text-tertiary);
+}
+
+.label{
+  width: 100%;
+  margin-top: 0.65rem; 
+  display: block;
+  font-size: var(--font-size-base);
+  font-weight: 400;
+
 }
 
 /* Cards */
@@ -208,7 +217,7 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 var(--spacing-lg);
+  /* padding: 0 var(--spacing-lg); */
 }
 
 /* Text Utilities */
@@ -222,6 +231,7 @@ body {
 .bg-primary { background-color: var(--bg-primary); }
 .bg-secondary { background-color: var(--bg-secondary); }
 .bg-tertiary { background-color: var(--bg-tertiary); }
+.bg-gradient { background: var(--gradient-linear); }
 .bg-card { background-color: var(--bg-card); }
 
 /* Gradient Utilities */
@@ -277,13 +287,13 @@ body {
 }
 
 /* Links */
-a {
+.a {
   color: var(--primary-blue);
   text-decoration: none;
   transition: color var(--transition-base);
 }
 
-a:hover {
+.a:hover {
   color: var(--primary-blue-light);
 }
 
