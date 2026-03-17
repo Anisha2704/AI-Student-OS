@@ -5,7 +5,7 @@ const Authbar = () => {
     <div>
 
       <h1 className='text-6xl font-bold'>Welcome to the <span className="gradient-text">Future of Learning</span></h1>
-      <p className='my-6 text-lg text-secondary '>
+      <p className='my-6 text-lg text-secondary'>
         Transform your study experience with AI-powered tools designed to help you learn faster, write better, and achieve more.
       </p>
       <div className="w-90 h-70 overflow-hidden mx-auto block">

@@ -191,7 +191,21 @@ body {
   display: block;
   font-size: var(--font-size-base);
   font-weight: 400;
+}
 
+.select{
+  background-color: var(--bg-input);
+  border: 1px solid var(--border-primary);
+  border-radius: var(--radius-lg);
+  color: var(--text-primary);
+  font-size: var(--font-size-base);
+  transition: all var(--transition-base);
+}
+
+.select:focus {
+  outline: none;
+  border-color: var(--border-focus);
+  box-shadow: 0 0 0 3px rgba(65, 105, 255, 0.1);
 }
 
 /* Cards */
